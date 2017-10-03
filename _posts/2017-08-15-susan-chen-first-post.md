@@ -4,7 +4,7 @@ title: "My First Project"
 date: 2017-08-15
 ---
 
-# Mockup Design to Live Responsive Website
+## Mockup Design to Live Responsive Website
 This project is my first responsive website using HTML picture element and CSS flex property.
 
 The assignment was to create a responsive website that looks like the mockup design on an one page PDF. 
