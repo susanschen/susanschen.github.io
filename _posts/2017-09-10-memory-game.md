@@ -6,9 +6,9 @@ date: 2017-09-10
 
 I have tremendous fun coding this interactive JavaScript-based game for the second project in the intermediate level javascript curriculum.
 
-![game preview](https://github.com/susanschen/Memory-Game/blob/master/img/preview.JPG "game preview")
+![game preview](/img/preview.JPG "game preview")
 
-### Project Specifications
+## Project Specifications
 - Memory Game Logic. The game randomly shuffles the cards. A user wins once all cards have successfully been matched.
 - Star Rating. The game displays a star rating (from 1-3) that reflects the player's performance. At the beginning of a game, it display 3 stars. After some number of moves, it change to a 2 star rating. After a few more moves, it  change to a 1 star rating.
 - Timer. When the player starts a game, a timer starts. Once the player wins the game, the timer stops.
