@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Memory Matching Game"
-date: 2017-09-08
+date: 2017-09-10
 ---
 
-I have tremendous fun coding this interactive JavaScript-based game for the second project in the intermediate level javascript curriculum. 
+I have tremendous fun coding this interactive JavaScript-based game for the second project in the intermediate level javascript curriculum.
 
 ![game preview](https://github.com/susanschen/Memory-Game/blob/master/img/preview.JPG "game preview")
 
