@@ -1,21 +1,12 @@
 ---
 layout: post
-title: "Pixel Art Maker"
+title: "Pixel Art Maker Project"
 date: 2017-09-08
 ---
 
-# Pixel Art Maker Project
-This project is written with HTML, CSS, and JavaScript.
+Pixel art maker is written in Javascript with the requirment to use loops, functions, selectors, and event listeners to complete the project. The code uses selectors to get DOM elements and the user input values for width, height and color. Upon the user submitting the width and height for the grid size, the function makeGrid() uses loops to create the rows an columns to display the grid.  The code uses event listeners to trigger grid creation, open up a color-picker, and modify the grid colors. 
 
 ## Preview
-![Pixel Art](https://github.com/susanschen/Pixel-Art-Maker/blob/master/happy.JPG "Pixel Art")
-
-## Project Guidelines
-This is my completed student project based on this [starter repository](https://github.com/udacity/project-pixel-art-maker-starter).
-
-| CRITERIA  | SPECIFICATIONS |
-|-----------|:---------------------|
-|JavaScript Loops and Functions |  Upon the user submitting the grid size, the function makeGrid() successfully displays the grid on the screen dynamically using While and For Loops.|
-|JavaScript Selectors and Event Listeners | The code uses selectors to get DOM elements and user input values. The code uses event listeners to trigger grid creation, open up a color-picker, and modify the grid colors. |
+![Pixel Art](/img/happy.JPG "Pixel Art")
 
 ### [Click here to PLAY](https://susanschen.github.io/Pixel-Art-Maker/)!
