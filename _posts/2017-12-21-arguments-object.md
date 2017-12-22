@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Javascript Arguments Object"
-date: 2018-12-21
+date: 2017-12-21
 ---
 # My Notes on Javascript
 ## Arguments Object
