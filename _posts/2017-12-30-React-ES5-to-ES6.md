@@ -39,6 +39,44 @@ class Theme extends React.Component {
   render() { return ( // code ) }
 }
 ```
+## Initial States and Default Props
+### ES5
+```javascript
+var Part = React.createClass({
+  getDefaultProps: function() {                 // get function will be replaced with static properties
+    return {
+      prop1: "content",
+      prop2: true,
+    };
+  },
+  propTypes: {                                  // will become static property
+    prop1: React.PropTypes.string.isRequired,
+    prop2: React.PropTypes.bool.isRequired,
+  },
+  getInitialState: function() {                 // get function will be replaced with static properties
+    return {
+      state1: this.props.prop2,
+    };
+  },
+});
+```
+
+### ES6
+```javascript
+class Part extends React.Component {
+  static defaultProps = {                           // static property
+    prop1: "content",
+    prop2: true,
+  }
+  static propTypes = {                              // static property
+    prop1: React.PropTypes.string.isRequired,
+    prop2: React.PropTypes.bool.isRequired,
+  }
+  state = {                                         // a property
+      state1: this.props.prop2,
+  }
+}
+```
 
 ## Lifecycle Method ComponentWillMount to Constructor
 
